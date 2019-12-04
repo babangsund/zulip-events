@@ -8,6 +8,9 @@ verify_ssl = true
 [packages]
 requests = "*"
 zulip = "*"
+flake8 = "*"
+autopep8 = "*"
+isort = "*"
 
 [requires]
 python_version = "3.7"
