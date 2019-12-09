@@ -48,7 +48,7 @@ def react(msg):
         react_monkey(msg)
         react_giphy(msg)
     except Exception:
-        print("Caught exception")
+        pass
 
 
 def main():
