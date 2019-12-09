@@ -5,7 +5,7 @@ import requests
 import zulip
 
 # Pass the path to your zuliprc file here.
-api_key = os.environ["API_KEY"]
+api_key = os.environ["GIPHY_API_KEY"]
 client = zulip.Client(config_file="./.zuliprc")
 
 
