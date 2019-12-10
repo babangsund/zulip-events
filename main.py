@@ -4,8 +4,8 @@ import sys
 import requests
 import zulip
 
-# Pass the path to your zuliprc file here.
 api_key = os.environ["GIPHY_API_KEY"]
+# Pass the path to your zuliprc file here.
 client = zulip.Client(config_file="./.zuliprc")
 
 
@@ -54,3 +54,6 @@ def react(msg):
 def main():
     """ Subscribes to all message events """
     client.call_on_each_message(lambda msg: react(msg))
+
+
+main()
