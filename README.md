@@ -4,11 +4,11 @@ Message callback events in Zulip
 
 ## Installation
 
-1. Clone the repository.
+1. Clone the repository.  
    `$ git clone https://github.com/babangsund/zulip-events`
-2. Enter the directory.
+2. Enter the directory.  
    `$ cd zulip-events`
-3. Install dependencies using [pipenv](https://pipenv.kennethreitz.org/en/latest/):
+3. Install dependencies using [pipenv](https://pipenv.kennethreitz.org/en/latest/):  
    `$ pipenv install`
 
 ## Usage
